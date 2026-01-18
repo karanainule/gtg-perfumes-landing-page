@@ -1,6 +1,6 @@
 # GTG Perfumes – Frontend Assignment
 
-## 🔥 Objective
+## Objective
 Convert a Figma design into a pixel-perfect, responsive webpage using HTML, CSS, and JavaScript.
 
 ## 🛠 Tech Stack
