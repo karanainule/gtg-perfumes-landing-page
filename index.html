@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
+
   <link rel="stylesheet" href="project-folder/style.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
   <nav class="navbar">
     <div class="navbar-container">
       <div class="logo">GTG</div>
-      
+
       <div class="nav-links">
         <a href="#">Home</a>
         <div class="nav-dropdown">
@@ -69,8 +69,6 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    
-
     <div class="hero-content">
       <div class="hero-badge">
         <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -121,7 +119,7 @@
             </button>
             <div class="gallery-dots" id="gallery-dots"></div>
           </div>
-          
+
           <div class="thumbnails" id="thumbnails"></div>
         </div>
 
@@ -137,13 +135,13 @@
             </div>
             <span class="rating-text">4.7 (999+ reviews)</span>
           </div>
-          
+
           <p class="product-description">
             Experience the timeless allure backed by modern artistry, captured in every bottle of our fragrance. Crafted for those who seek to elevate their essence with purpose and sophistication.
           </p>
 
           <div class="subscription-header">Most Popular</div>
-          
+
           <div class="subscription-option">
             <label class="subscription-label">
               <div class="subscription-left">
@@ -155,34 +153,34 @@
                 <span class="original">$146</span>
               </div>
             </label>
-            
+
             <div class="subscription-details" id="single-details">
               <p class="fragrance-title">Choose a Fragrance</p>
               <div class="fragrance-options">
-                <button class="fragrance-option active" onclick="selectFragrance(this, 'Original')">
+                <button class="fragrance-option active" onclick="selectFragrance(this)">
                   <span class="badge">BEST-SELLER</span>
                   <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=100&h=120&fit=crop" alt="Original">
                   <span>Original</span>
                 </button>
-                <button class="fragrance-option" onclick="selectFragrance(this, 'Lily')">
+                <button class="fragrance-option" onclick="selectFragrance(this)">
                   <img src="https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?w=100&h=120&fit=crop" alt="Lily">
                   <span>Lily</span>
                 </button>
-                <button class="fragrance-option" onclick="selectFragrance(this, 'Rose')">
+                <button class="fragrance-option" onclick="selectFragrance(this)">
                   <img src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=100&h=120&fit=crop" alt="Rose">
                   <span>Rose</span>
                 </button>
               </div>
-              
+
               <p class="fragrance-title">What's Included:</p>
               <div class="delivery-options">
-                <button class="delivery-option active" onclick="selectDelivery(this, 'monthly')">
+                <button class="delivery-option active" onclick="selectDelivery(this)">
                   <p>Every 30 Days</p>
                   <div class="delivery-images">
                     <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=100&h=120&fit=crop" alt="Monthly">
                   </div>
                 </button>
-                <button class="delivery-option" onclick="selectDelivery(this, 'onetime')">
+                <button class="delivery-option" onclick="selectDelivery(this)">
                   <p>One Time <span class="free">(Free)</span></p>
                   <div class="delivery-images">
                     <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=100&h=120&fit=crop" alt="One">
@@ -191,7 +189,7 @@
                   </div>
                 </button>
               </div>
-              
+
               <ul class="benefits-list">
                 <li><svg class="icon-sm check" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> 1 Bottle Shipped Monthly</li>
                 <li><svg class="icon-sm check" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> <strong>Free</strong> Sampler For Original, Lily And Rose Fragrances</li>
@@ -228,7 +226,7 @@
       <div class="collection-grid">
         <div class="collection-content">
           <h2 class="playfair">Our Collection</h2>
-          
+
           <div class="accordion-item">
             <button class="accordion-btn active" onclick="toggleAccordion(this)">
               <span>Signature Scents</span>
@@ -240,10 +238,10 @@
               Discover our curated line of signature perfumes, designed to become your daily companion.
             </div>
           </div>
-          
+
           <div class="accordion-item">
             <button class="accordion-btn" onclick="toggleAccordion(this)">
-              <span>Signature Scents</span>
+              <span>Seasonal Collection</span>
               <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
               </svg>
@@ -252,10 +250,10 @@
               Explore our seasonal collection with unique blends for every time of year.
             </div>
           </div>
-          
+
           <div class="accordion-item">
             <button class="accordion-btn" onclick="toggleAccordion(this)">
-              <span>Signature Scents</span>
+              <span>Limited Edition</span>
               <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
               </svg>
@@ -264,10 +262,10 @@
               Limited edition fragrances crafted with rare and exotic ingredients.
             </div>
           </div>
-          
+
           <div class="accordion-item">
             <button class="accordion-btn" onclick="toggleAccordion(this)">
-              <span>Signature Scents</span>
+              <span>Classic Collection</span>
               <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
               </svg>
@@ -277,7 +275,7 @@
             </div>
           </div>
         </div>
-        
+
         <div>
           <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=600&h=700&fit=crop" alt="Collection" class="collection-image">
         </div>
@@ -438,7 +436,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="social-links">
           <div class="social-link">
             <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
@@ -453,7 +451,7 @@
             <span>X</span>
           </div>
         </div>
-        
+
         <div class="newsletter">
           <h3>Join our newsletter to stay up to date on features and releases.</h3>
           <div class="newsletter-form">
